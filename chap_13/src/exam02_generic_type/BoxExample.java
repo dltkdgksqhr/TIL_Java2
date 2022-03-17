@@ -3,10 +3,10 @@ package exam02_generic_type;
 public class BoxExample {
 
 	public static void main(String[] args) {
-	 Box<String> box = new Box<String>();
+	 Box<Double> box = new Box<Double>();
 	 
-	 box.set("hello");
-	 String greet = box.get();
+	 box.set(3.15);
+	 Double greet = box.get();
 	 
 	 Box<Integer> box2 = new Box<Integer>();
 	 box2.set(6);
