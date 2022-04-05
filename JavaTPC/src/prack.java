@@ -1,4 +1,4 @@
-
+import kr.tpc.Inflearn;
 
 public class prack {
 
@@ -18,6 +18,10 @@ public class prack {
 	System.out.println(hu.name + "\t");
 	System.out.println(hu.phone + "\t");*/
 
+//	Inflearn inf =new Inflearn();
+	
+	Inflearn.tpc();
+	Inflearn.java();
 	}
   public int sum(int a, int b) {
 	  int c = a + b;
