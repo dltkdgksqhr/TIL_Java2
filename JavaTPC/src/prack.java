@@ -1,5 +1,6 @@
 import kr.tpc.Inflearn;
 import kr.tpc.MemberVO;
+import kr.tpc.MovieVO;
 
 public class prack {
 
@@ -40,6 +41,25 @@ public class prack {
 	
 	System.out.println(m1.toString());
 	
+	int[] num = new int[5];
+	num[0] = 10;
+	num[1] = 20;
+	num[2] = 30;
+	num[3] = 40;
+	num[4] = 50;
+	
+	for(int i=0;i<num.length;i++) {
+		System.out.println(num[i]);
+		}
+	
+	MovieVO[] marr= new MovieVO[3];
+	marr[0] = new MovieVO("캐리비안의 해적", 15000, "조니뎁", 3, 1.8f);
+	marr[1] = new MovieVO("캐리비안의 해적2", 20000, "해리", 7, 1.2f);
+	marr[2] = new MovieVO("캐리비안의 해적3", 18000, "존슨", 9, 1.4f);
+	
+	for(MovieVO name:marr) {
+		System.out.println(name);
+	}
 	}
   public int sum(int a, int b) {
 	  int c = a + b;
