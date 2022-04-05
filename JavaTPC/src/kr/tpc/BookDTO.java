@@ -8,4 +8,10 @@ public class BookDTO {
   public BookDTO() {
     // 눈에 보이지는 않지만 객체를 생성하는 작업을한다.(기계어코드)
   }
+public BookDTO(String title, int price, String company, int page) {
+	this.title = title;
+	this.price = price;
+	this.company = company;
+	this.page = page;
+	}
 }
