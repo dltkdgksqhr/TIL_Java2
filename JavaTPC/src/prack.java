@@ -1,4 +1,5 @@
 import kr.tpc.Inflearn;
+import kr.tpc.MemberVO;
 
 public class prack {
 
@@ -22,6 +23,23 @@ public class prack {
 	
 	Inflearn.tpc();
 	Inflearn.java();
+	
+	MemberVO m = new MemberVO();
+	m.setName("홍길동");
+	m.setAge(45);
+	m.setTel("010-7752-8545");
+	m.setAddr("홍콩");
+	
+	System.out.println(m);
+	
+	MemberVO m1 = new MemberVO();
+	m1.setName("유관순");
+	m1.setAge(17);
+	m1.setTel("010-5475-2142");
+	m1.setAddr("안산");
+	
+	System.out.println(m1.toString());
+	
 	}
   public int sum(int a, int b) {
 	  int c = a + b;
