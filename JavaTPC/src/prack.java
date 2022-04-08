@@ -57,9 +57,9 @@ public class prack {
 	marr[1] = new MovieVO("캐리비안의 해적2", 20000, "해리", 7, 1.2f);
 	marr[2] = new MovieVO("캐리비안의 해적3", 18000, "존슨", 9, 1.4f);
 	
-	for(MovieVO name:marr) {
+	for(MovieVO name : marr) {
 		System.out.println(name);
-	}
+		}
 	}
   public int sum(int a, int b) {
 	  int c = a + b;
